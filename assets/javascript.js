@@ -131,7 +131,7 @@ $(document).ready(function(){
     $("#content_right").html(content_right);
 
     const footer = `
-        <div class="container mx-auto ">
+        <div class="container mx-auto">
       <div class="grid grid-cols-2 md:grid-cols-3">
         <div class="*:mb-5">
           <h3 class="font-bold text-2xl text-[#3a3a3a]">Thông tin liên hệ:</h3>
