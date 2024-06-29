@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#swiper1 > .swiper-button-prev {
+  opacity: 0;
+  margin-left: 20px;
+  transition: all .5s ease;
+  width: 4rem;
+  height: 4rem;
+  border:  #fff 2px solid;
+  border-radius: 50%;
+}
+#swiper1 > .swiper-button-next {
+  opacity: 0;
+  margin-right: 20px;
+  transition: all .5s ease;
+  width: 4rem;
+  height: 4rem;
+  border:  #fff 2px solid;
+  border-radius: 50%;
+}
+#swiper1:hover > .swiper-button-prev{
+  opacity: 1;
+  margin-left: 0;
+}
+#swiper1:hover > .swiper-button-next  {
+  opacity: 1;
+  margin-right: 0;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 20px;
+  color: #fff;
+}
+#swiper1 > .swiper-button-prev:hover, #swiper1 > .swiper-button-next:hover{
+  background-color: #69c8ff;
+}
+.swiper-pagination-bullet{
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 3px #e6e6e6 solid;
+  transition: all .5s ease;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background: radial-gradient(106.16% 50% at 50.43% 0, rgba(255, 244, 217, .5) 0, rgba(255, 244, 217, 0) 100%), radial-gradient(65% 65% at 50.43% 0, rgba(176, 138, 93, .5) 0, rgba(177, 148, 76, 0) 100%), linear-gradient(180deg, #846743, #6d4f2b 99.48%);
+  width: 2.6rem;
+  border-radius: 10px;
+}
+
+
+.btn1, .btn2 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .22);
+}
+#button1 {
+  cursor: pointer;
+  font-family: Helvetica, "sans-serif";
+  transition: all .2s;
+  padding: .2rem .5rem;
+  color: #1e79ef;
+  font-weight: 700;
+  border: 2px solid #1e79ef;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+#button1:hover {
+  color: white;
+  background: #1e79ef;
+}
+#button1:hover > i {
+  color: white;
+}
+
+#button1 > i {
+  width: 1.7rem;
+  margin-left: 5px;
+  transition: transform .3s ease-in-out;
+  color: #1e79ef;
+  font-size: 1.5rem;
+}
+
+#button1:hover i {
+  transform: translateX(5px);
+}
+
+#button1:active {
+  transform: scale(0.95);
+}
+
+.custom h1 , .custom h1 strong{
+  font-size: 2.1rem;
+  color: #3a3a3a;
+}
+.custom h2, .custom h2 strong{
+  font-size: 2.5rem;
+  color: #3a3a3a;
+  font-weight: 500;
+}
+.custom h2 strong{
+  font-weight: 600;
+}
+
+
+.custom h3, .custom h3 strong{
+  font-size: 2.1rem;
+  color: #3a3a3a;
+  font-weight: 500;
+}
+.custom h3 strong{
+  font-weight: 600;
+}
+.custom h4, .custom h4 strong{
+  font-size: 2rem;
+  color: #3a3a3a;
+}
+.custom blockquote{
+  margin: 2.5em;
+  border-left: 5px solid rgb(0 0 0 / .05);
+  padding-right: 1.3rem;
+  font-style: italic;
+}
+.custom p a strong, .custom p a, .custom figure figcaption a{
+  text-decoration: underline;
+}
+.custom p a:hover, .custom li strong em a:hover{
+  color: #4B4F58;
+}
+.custom p a, .custom li strong em a, .custom figure figcaption a{
+  color: #0170B9;
+}
+
+.custom ol, .custom li{
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+  color: #4B4F58;
+}
+.custom ol, .custom ul{
+  list-style-type: decimal;
+  font-weight: 400;
+  margin-left: 4rem;
+}
+.custom ul{
+  list-style-type: disc;
+}
+
+.custom table{
+  width: 100%;
+}
+.custom table tbody{
+  border: 1px solid black;
+}
+.custom table tbody tr, .custom table tbody tr td{
+  border: 1px solid black;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+  color: #4B4F58;
+  text-align: center;
+}
+
+
+
+
+.custom-right p a{
+  text-decoration: none;
+}
